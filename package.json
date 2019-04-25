@@ -7,12 +7,24 @@
     "@types/node": "11.13.7",
     "@types/react": "16.8.14",
     "@types/react-dom": "16.8.4",
+    "@types/react-router-dom": "^4.3.2",
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
+    "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-icons": "^3.6.1",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
+    "styled-components": "^4.2.0",
+    "tslint": "^5.16.0",
+    "tslint-react": "^4.0.0",
     "typescript": "3.4.4"
   },
   "scripts": {
+    "launch": "react-scripts start && node ../server/index.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -32,5 +44,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/lodash": "^4.14.123",
+    "@types/react-icons": "^3.0.0",
+    "@types/styled-components": "^4.1.14"
   }
 }
